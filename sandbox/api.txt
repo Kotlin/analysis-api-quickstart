@@ -1,0 +1,6 @@
+Public API of module 'sandbox'
+
+// Sandbox.kt
+class User(val name: String, val age: Int)
+fun greet(user: User): String
+fun now(): Instant

@@ -1,0 +1,13 @@
+[versions]
+kotlin = "2.4.20"
+analysis-api = "2.5.0-Beta2"
+clikt = "5.1.0"
+
+[libraries]
+kotlin-analysis-api = { module = "org.jetbrains.kotlin:kotlin-analysis-api", version.ref = "analysis-api" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-test-junit5 = { module = "org.jetbrains.kotlin:kotlin-test-junit5", version.ref = "kotlin" }
+clikt = { module = "com.github.ajalt.clikt:clikt", version.ref = "clikt" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
