@@ -1,6 +1,7 @@
 # Analysis API quickstart
 
-A small Gradle project for writing command-line tools on top of the [Kotlin Analysis API](https://kotl.in/analysis-api). Use it as a
+A small Gradle project for writing command-line tools on top of the [Kotlin Analysis API](https://kotl.in/analysis-api).  
+Use it as a
 starting point: replace the sample logic with your own analysis or code generation, and run it against any module right from the build.
 
 ## What's inside
@@ -49,5 +50,5 @@ coordinates instead.
 ## Versions
 
 Dependency versions live in [`gradle/libs.versions.toml`](gradle/libs.versions.toml). The Analysis API is published on Maven Central as
-`org.jetbrains.kotlin:kotlin-analysis-api` and is versioned together with the Kotlin compiler.
+`org.jetbrains.kotlin:kotlin-analysis-api` and is versioned together with the Kotlin compiler.  
 A JDK 17+ is all you need to build; the Gradle wrapper and toolchains handle the rest.
