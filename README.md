@@ -1,4 +1,4 @@
-# Analysis API quickstart
+# Kotlin Analysis API Quickstart
 
 [![JetBrains team project](https://jb.gg/badges/team.svg)](https://github.com/JetBrains#jetbrains-on-github)
 
